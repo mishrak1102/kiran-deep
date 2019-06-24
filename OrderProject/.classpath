@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/deepk/Downloads/jar_files/kafka-clients-0.11.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepk/Downloads/jar_files/lz4-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepk/Downloads/jar_files/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepk/Downloads/jar_files/snappy-java-1.1.2.6.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/deepk/Downloads/com.fasterxml.jackson.databind.jar/com.fasterxml.jackson.databind.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepk/Downloads/com.fasterxml.jackson.core.jar/com.fasterxml.jackson.core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/deepk/Downloads/jackson-annotations-2.1.2.jar/jackson-annotations-2.1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
