@@ -1,0 +1,28 @@
+server:
+  port: 9000
+spring:
+  batch:
+    job:
+      enabled: false
+  kafka:
+    consumer:
+      bootstrap-servers: localhost:9092
+      group-id: group_id
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer:  com.casestudy.notification.serialize.NotificationDeserializer
+    producer:
+      bootstrap-servers: localhost:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer:  com.casestudy.notification.serialize.NotificationSerializer
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: kirandeepjune@gmail.com
+    password: Tesla@9980
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
